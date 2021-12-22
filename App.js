@@ -18,7 +18,6 @@ export default class App extends React.Component {
     this.state = {
       text: '',
       chunks: [],
-      phonicSounds: [],
     };
   }
   render() {
@@ -78,7 +77,7 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'red',
+    backgroundColor: 'blue',
   },
   inputBox: {
     marginTop: 50,
@@ -93,12 +92,12 @@ const styles = StyleSheet.create({
     width: '50%',
     height: 55,
     alignSelf: 'center',
-    padding: 10,
+    padding: 20,
     margin: 10,
   },
   buttonText: {
     textAlign: 'center',
-    fontSize: 80,
+    fontSize: 51,
     fontWeight: 'bold',
   },
   imageIcon: {
