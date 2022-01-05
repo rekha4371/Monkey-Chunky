@@ -77,10 +77,10 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'blue',
+    backgroundColor: 'red',
   },
   inputBox: {
-    marginTop: 50,
+    marginTop: 150,
     width: '50%',
     alignSelf: 'center',
     height: 40,
@@ -97,11 +97,11 @@ const styles = StyleSheet.create({
   },
   buttonText: {
     textAlign: 'center',
-    fontSize: 51,
+    fontSize: 25,
     fontWeight: 'bold',
   },
   imageIcon: {
-    width: 150,
+    width: 200,
     height: 150,
     marginLeft: 95,
   }
