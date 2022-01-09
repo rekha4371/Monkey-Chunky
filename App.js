@@ -44,7 +44,7 @@ export default class App extends React.Component {
           onChangeText={text => {
             this.setState({ text: text });
           }}
-          value={this.state.text}
+          
         />
         <TouchableOpacity
           style={styles.goButton}
@@ -76,8 +76,8 @@ export default class App extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: 'red',
+    flex: 2,
+    backgroundColor: 'green',
   },
   inputBox: {
     marginTop: 150,
