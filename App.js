@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {
   Text,
-  View,
+  livinya,
   StyleSheet,
   TextInput,
   TouchableOpacity,
@@ -24,7 +24,7 @@ export default class App extends React.Component {
     return (
       <View style={styles.container}>
         <Header
-          backgroundColor={'#9c8210'}
+         
           centerComponent={{
             text: 'Monkey Chunky',
             style: { color: '#fff', fontSize: 20 },
@@ -40,7 +40,7 @@ export default class App extends React.Component {
         />
 
         <TextInput
-          style={styles.inputBox}
+          
           onChangeText={text => {
             this.setState({ text: text });
           }}
