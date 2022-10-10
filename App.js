@@ -8,7 +8,7 @@ import {
   Image,
   Alert
 } from 'react-native';
-import { Header } from 'react-native-elements';
+import { Headerct-native-elements';
 import db from './localdb';
 import PhonicSoundButton from './components/PhonicSoundButton';
 
@@ -17,6 +17,7 @@ export default class App extends React.Component {
     super();
     this.state = {
       text: '',
+      caleb
       chunks: [],
     };
   }
@@ -27,7 +28,7 @@ export default class App extends React.Component {
          
           centerComponent={{
             text: 'Monkey Chunky',
-            style: { color: '#fff', fontSize: 20 },
+            
           }}
         />
 
