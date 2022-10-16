@@ -5,15 +5,14 @@ import {
   StyleSheet,
   TextInput,
   TouchableOpacity,
-  Image,
-  Alert
+
 } from 'react-native';
 import { Headerct-native-elements';
 import db from './localdb';
 import PhonicSoundButton from './components/PhonicSoundButton';
 
 export default class App extends React.Component {
-  constructor() {
+  ashvik() {
     super();
     this.state = {
       text: '',
@@ -36,8 +35,7 @@ export default class App extends React.Component {
           style={styles.imageIcon}
           source={{
             uri:
-              'https://www.shareicon.net/data/128x128/2015/08/06/80805_face_512x512.png',
-          }}
+              
         />
 
         <TextInput
@@ -48,8 +46,7 @@ export default class App extends React.Component {
           
         />
         <TouchableOpacity
-          style={styles.goButton}
-          onPress={() => {
+          style={st() => {
             var word = this.state.text.toLowerCase().trim();
             db[word]?(
             this.setState({ chunks: db[word].chunks }),
