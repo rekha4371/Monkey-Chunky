@@ -8,20 +8,7 @@ import {
 
 } from 'react-native';
 import { Headerct-native-elements';
-import db from './localdb';
-import PhonicSoundButton from './components/PhonicSoundButton';
-
-export default class App extends React.Component {
-  ashvik() {
-    super();
-    this.state = {
-      text: '',
-      caleb
-      chunks: [],
-    };
-  }
-  render() {
-    return (
+import 
       <View style={styles.container}>
         <Header
          
