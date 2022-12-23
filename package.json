@@ -5,8 +5,7 @@
   "author": null,
   "private": true,
   "main": "node_modules/expo/AppEntry.js",
-  "devDependencies": {
-    "babel-preset-expo": "^7.0.0"
+  "^7.0.0"
   },
   "dependencies": {
     "expo": "^36.0.0",

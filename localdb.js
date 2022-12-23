@@ -5,12 +5,7 @@ const db = {
   to: { chunks: ['t', 'o'], phones: ['T', 'UW'] },
   a: { chunks: ['a'], phones: ['AH'] },
   in: { chunks: ['i', 'n'], phones: ['IH', 'N'] },
-  for: { chunks: ['f', 'o', 'r'], phones: ['F', 'AO', 'R'] },
-  is: { chunks: ['i', 's'], phones: ['IH', 'Z'] },
-  on: { chunks: ['o', 'n'], phones: ['AA', 'N'] },
-  that: { chunks: ['th', 'a', 't'], phones: ['DH', 'AE', 'T'] },
-  by: { chunks: ['b', 'y'], phones: ['B', 'AY'] },
-  this: {
+  for: { chunks:
   with: { chunks: ['w', 'i', 'th'], phones: ['W', 'IH', 'DH'] },
   i: { chunks: ['i'], phones: ['AY'] },
   you: { chunks: ['y', 'ou'], phones: ['Y', 'UW'] },

@@ -25,21 +25,9 @@ import
               
         />
 
-        <TextInput
-          
-          onChangeText={text => {
-            this.setState({ text: text });
-          }}
-          
-        />
         <TouchableOpacity
           style={st() => {
-            var word = this.state.text.toLowerCase().trim();
-            db[word]?(
-            this.setState({ chunks: db[word].chunks }),
-            this.setState({ phonicSounds: db[word].phones })
-            ):
-            Alert.alert("The word does not exist in our database");
+         lert.alert("The word does not exist in our database");
           }}>
           <Text style={styles.buttonText}>GO</Text>
         </TouchableOpacity>
