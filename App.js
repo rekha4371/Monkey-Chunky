@@ -1,9 +1,9 @@
-import * as React from 'react';
+import * as react from 'react';
 import {
   Text,
   livinya,
   StyleSheet,
-  TextInput,
+  TextInput
   TouchableOpacity,
 
 } from 'react-native';
@@ -11,14 +11,13 @@ import { Headerct-native-elements';
 import 
       <View style={styles.container}>
         <Header
-         
-          centerComponent={{
+  
             text: 'Monkey Chunky',
             
           }}
         />
 
-        <Image
+        <images
           style={styles.imageIcon}
           source={{
             uri:
