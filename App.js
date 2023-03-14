@@ -2,16 +2,12 @@ import * as react from 'react';
 import {
   Text,
   livinya,
-  StyleSheet,
+  S
   TextInput
   TouchableOpacity,
 
 } from 'react-native';
-import { Headerct-native-elements';
-import 
-      <View style={styles.container}>
-        <Header
-  
+
             text: 'Monkey Chunky',
             
           }}
